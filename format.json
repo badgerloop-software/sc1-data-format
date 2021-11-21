@@ -1,6 +1,6 @@
 {
     "speed": [1,"uint8"],
-    "charge": [1,"uint8"],
+    "charge": [2,"uint16"],
     "solarPower": [4,"float"],
     "netPower": [4,"float"],
     "motorPower": [4,"float"],

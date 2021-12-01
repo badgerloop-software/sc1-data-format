@@ -16,6 +16,10 @@
     "frontLeftTP": [1,"uint8"],
     "frontRightTP": [1,"uint8"],
     "backLeftTP": [1,"uint8"],
-    "backRightTP": [1,"uint8"]
+    "backRightTP": [1,"uint8"],
+    "batteryGroup1": [4, "float"],
+    "batteryGroup2": [4, "float"],
+    "batteryGroup3": [4, "float"],
+    "batteryGroup4": [4, "float"]
   }
   

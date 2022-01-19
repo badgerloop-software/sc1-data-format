@@ -1,8 +1,6 @@
 {
   "speed": [1,"uint8"],
-  "charge": [1,"uint8"],
   "solarPower": [4,"float"],
-  "batteryVoltage": [4,"float"],
   "batteryCurrent": [4,"float"],
   "batteryPower": [4, "float"],
   "motorPower": [4,"float"],
@@ -11,7 +9,9 @@
   "motorTemp": [4,"float"],
   "motorControllerTemp": [4,"float"],
   "bpsFault": [1,"bool"],
+  "eStop": [1,"bool"],
   "cruiseControl": [1,"bool"],
+  "leftTurn": [1,"bool"],
   "rightTurn": [1,"bool"],
   "frontLeftTP": [1,"uint8"],
   "frontRightTP": [1,"uint8"],

@@ -22,6 +22,7 @@
   "batteryGroup1": [4, "float"],
   "batteryGroup2": [4, "float"],
   "batteryGroup3": [4, "float"],
-  "batteryGroup4": [4, "float"]
+  "batteryGroup4": [4, "float"],
+  "batteryGroup5": [4, "float"]
 }
   

@@ -23,7 +23,7 @@
   "bus_12V": [4, "float", "V", 0, 100, "LV Boards"],
   "mainIO_current_in": [4, "float", "A", 0, 100, "LV Boards"],
   "driverIO_current_in": [4, "float", "A", 0, 100, "LV Boards"],
-  "RTC": [4, "long", "?", 0, 100, "General"],
+  "RTC": [1, "uint8", "?", 0, 100, "General"],
   "MPPT_contactor": [1, "bool", "", 1, 1, "MPS"],
   "motor_controller_contactor": [1, "bool", "", 1, 1, "MPS"],
   "low_contactor": [1, "bool", "", 1, 1, "MPS"],

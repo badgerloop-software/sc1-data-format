@@ -1,5 +1,5 @@
 {
-  "speed": [1,"uint8", "km/h", 0, 70, "General"],
+  "speed": [1,"uint8", "mph", 0, 70, "General"],
   "driver_eStop": [1, "bool", "", 0, 0, "Shutdown"],
   "external_eStop": [1, "bool", "", 0, 0, "Shutdown"],
   "battery_eStop": [1, "bool", "", 0, 0, "Shutdown"],

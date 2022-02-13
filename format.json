@@ -23,7 +23,8 @@
   "bus_12V": [4, "float", "V", 0, 100, "LV Boards"],
   "mainIO_current_in": [4, "float", "A", 0, 100, "LV Boards"],
   "driverIO_current_in": [4, "float", "A", 0, 100, "LV Boards"],
-  "rtc": [1, "uint8", "?", 0, 100, "General"],
+  "rtc_sc": [1, "uint8", "sec", 0, 59, "General"],
+  "rtc_mn": [1, "uint8", "min", 0, 59, "General"],
   "mppt_contactor": [1, "bool", "", 1, 1, "MPS"],
   "motor_controller_contactor": [1, "bool", "", 1, 1, "MPS"],
   "low_contactor": [1, "bool", "", 1, 1, "MPS"],
@@ -70,8 +71,17 @@
   "soc": [4, "float", "%", 0, 100, "BMS"],
   "soh": [4, "float", "Ah", 0, 100, "BMS"],
   "pack_capacity": [4, "float", "Ah", 57, 57, "BMS"],
+  "adaptive_total_capacity": [4, "float", "Ah", 0, 100, "BMS"],
   "bps_fault": [1, "bool", "", 0, 0, "BMS"],
   "fan_speed": [1, "uint8", "", 0, 6, "BMS"],
-  "failsafe_status": [1, "bool", "", 0, 0, "BMS"]
+  "voltage_failsafe": [1, "bool", "", 0, 0, "BMS"],
+  "current_failsafe": [1, "bool", "", 0, 0, "BMS"],
+  "supply_power_failsafe": [1, "bool", "", 0, 0, "BMS"],
+  "memory_failsafe": [1, "bool", "", 0, 0, "BMS"],
+  "relay_failsafe": [1, "bool", "", 0, 0, "BMS"],
+  "bms_canbus_failure": [1, "bool", "", 0, 0, "BMS"],
+  "pack_resistance": [4, "float", "mOhm", 0, 100, "BMS"],
+  "avg_cell_resistance": [4, "float", "mOhm", 0, 100, "BMS"],
+  "bms_input_voltage": [4, "float", "V", 12, 24, "BMS"]
 }
   

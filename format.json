@@ -27,6 +27,7 @@
   "tstamp_sc": [1, "uint8", "s", 0, 59, "General"],
   "tstamp_mn": [1, "uint8", "min", 0, 59, "General"],
   "tstamp_hr": [1, "uint8", "hr", 0, 23, "General"],
+  "mps_enable": [1, "bool", "", 1, 1, "MPS"],
   "mppt_contactor": [1, "bool", "", 1, 1, "MPS"],
   "motor_controller_contactor": [1, "bool", "", 1, 1, "MPS"],
   "low_contactor": [1, "bool", "", 1, 1, "MPS"],

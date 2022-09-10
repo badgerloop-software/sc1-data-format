@@ -16,4 +16,4 @@ The following information is listed within the format for each piece of data bei
 
 For each piece of data, the information described above will be listed as follows:
 
-&emsp;"name": [\<<i>number of bytes</i>\>, "data_type", "units", \<<i>nominal minimum</i>\>, \<<i>nominal maximum</i>\>, "Category/Subsystem"]
+&emsp;"name": [\<<i>num bytes</i>\>, "data_type", "units", \<<i>nominal min</i>\>, \<<i>nominal max</i>\>, "Category/Subsystem"]

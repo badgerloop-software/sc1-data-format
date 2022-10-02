@@ -12,7 +12,7 @@
   "roll": [4, "float", "degrees", 0, 100, "General"],
   "motor_temp": [4, "float", "degC", 0, 100, "Motor"],
   "motor_controller_temp": [4, "float", "degC", 0, 100, "Motor"],
-  "dcdc_temp": [4, "float", "degC", 0, 100, "LV Boards"],
+  "dcdc_temp": [4, "float", "degC", 0, 100, "PPC"],
   "driverIO_temp": [4, "float", "degC", 0, 100, "LV Boards"],
   "mainIO_temp": [4, "float", "degC", 0, 100, "LV Boards"],
   "cabin_temp": [4, "float", "degC", 0, 100, "General"],

@@ -89,6 +89,7 @@
   "pack_internal_temp": [4, "float", "degC", 0, 100, "Battery;BMS CAN"],
   "pack_current": [4, "float", "A", -10, 40, "Battery;BMS CAN"],
   "pack_voltage": [4, "float", "V", 69, 108, "Battery;BMS CAN"],
+  "pack_power": [4, "float", "W", -1080, 4320, "Battery;Firmware"],
   "supplemental_voltage": [4, "float", "V", 0, 100, "Battery;Supplemental"],
   "cell_group1_voltage": [4, "float", "V", 6.4, 7.2, "Battery;BMS"],
   "cell_group2_voltage": [4, "float", "V", 6.4, 7.2, "Battery;BMS"],

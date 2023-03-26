@@ -54,7 +54,6 @@
   "motor_power": [4, "float", "W", 0, 100, "MCC; Firmware"],
   "mc_status": [1, "uint8", "", 0, 0, "MCC;MC Feedback"],
   "mainIO_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
-  "driverIO_hrn": [1, "bool", "", 1, 1, "Main IO;Sensors"],
   "main_5V_bus": [4, "float", "V", 0, 100, "Main IO;Power Monitor"],
   "main_12V_bus": [4, "float", "V", 0, 100, "Main IO;Power Monitor"],
   "main_vbus": [4, "float", "V", 0, 100, "Main IO;Power Monitor"],

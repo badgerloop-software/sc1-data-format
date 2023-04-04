@@ -168,7 +168,7 @@
   "charge_limit_enforcement_fault": [1, "bool", "", 0, 0, "Battery;BMS CAN"],
   "pack_resistance": [4, "float", "mOhm", 0, 100, "Battery;BMS CAN"],
   "bms_input_voltage": [4, "float", "V", 12, 24, "Battery;BMS CAN"],
-  "charge_enable": [1, "bool", "", 0, 1, "Battery;BMS"],
+  "charge_enable": [1, "bool", "", 0, 0, "Battery;BMS"],
   "discharge_enable": [1, "bool", "", 0, 0, "Battery;Shutdown"]
 }
   

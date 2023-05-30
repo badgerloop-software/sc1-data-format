@@ -1,7 +1,7 @@
 # sc1-data-format
 Format for the byte arrays sent from firmware to software within the solar car and from the solar car to the engineering dashboard. The format also contains additional information about each piece of data that is collected from the solar car, as detailed below.
 
-meaningless change 3
+meaningless change 4
 
 ## Format
 The following information is listed within the format for each piece of data being collected from the solar car:

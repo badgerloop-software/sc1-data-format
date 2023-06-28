@@ -95,7 +95,7 @@
   "string1_I_in": [4, "float", "A", 0, 7, "Solar Array;Sensors"],
   "string2_I_in": [4, "float", "A", 0, 7, "Solar Array;Sensors"],
   "string3_I_in": [4, "float", "A", 0, 7, "Solar Array;Sensors"],
-  "pack_temp": [4, "float", "degC", 0, 60, "Battery;BMS CAN"],
+  "pack_temp": [4, "float", "degC", 0, 55, "Battery;BMS CAN"],
   "pack_internal_temp": [4, "float", "degC", 0, 100, "Battery;BMS CAN"],
   "pack_current": [4, "float", "A", -24.4, 48.8, "Battery;BMS CAN"],
   "pack_voltage": [4, "float", "V", 77.5, 113.15, "Battery;BMS CAN"],

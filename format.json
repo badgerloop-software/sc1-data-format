@@ -7,7 +7,7 @@
   "door_lim_out": [1, "bool", "", 0, 0, "Main IO;Shutdown"],
   "mcu_check": [1, "bool", "", 0, 0, "Main IO;Shutdown"],
   "mcu_stat_fdbk": [1, "bool", "", 0, 0, "Main IO;Shutdown"],
-  "mcu_hv_en": [1, "bool", "", 0, 0, "Main IO;Shutdown"],
+  "mcu_hv_en": [1, "bool", "", 1, 1, "Main IO;Shutdown"],
   "imd_status": [1, "bool", "", 0, 0, "Main IO;Shutdown"],
   "mcu_latch": [1, "bool", "", 0, 1, "Main IO;Shutdown"],
   "state": [1, "char", "", 0, 255, "MCC;Firmware"],

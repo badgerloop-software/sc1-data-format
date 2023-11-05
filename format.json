@@ -179,6 +179,7 @@
   "pack_resistance": [4, "float", "mOhm", 0, 100, "Battery;BMS CAN"],
   "bms_input_voltage": [4, "float", "V", 12, 24, "Battery;BMS CAN"],
   "charge_enable": [1, "bool", "", 0, 0, "Battery;BMS"],
-  "discharge_enable": [1, "bool", "", 0, 0, "Battery;Shutdown"]
+  "discharge_enable": [1, "bool", "", 0, 0, "Battery;Shutdown"],
+  "tstamp_unix": [8, "uint64", "ms", 0, 0, "Software;Timestamp"]
 }
   

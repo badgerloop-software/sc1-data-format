@@ -180,6 +180,9 @@
   "bms_input_voltage": [4, "float", "V", 12, 24, "Battery;BMS CAN"],
   "charge_enable": [1, "bool", "", 0, 0, "Battery;BMS"],
   "discharge_enable": [1, "bool", "", 0, 0, "Battery;Shutdown"],
-  "tstamp_unix": [8, "uint64", "ms", 0, 0, "Software;Timestamp"]
+  "tstamp_unix": [8, "uint64", "ms", 0, 0, "Software;Timestamp"],
+  "lat": [4, "float", "Degree", 0, 0, "Software;GPS"],
+  "lon": [4, "float", "Degree", 0, 0, "Software;GPS"],
+  "elev": [4, "float", "meter", 0, 0, "Software;GPS"]
 }
   

@@ -61,6 +61,7 @@
   "main_12V_current": [4, "float", "A", 0, 100, "Main IO;Sensors"],
   "main_24V_current": [4, "float", "A", 0, 100, "Main IO;Sensors"],
   "bms_can_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
+  "hv_can_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
   "mainIO_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
   "mcc_can_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
   "mppt_can_heartbeat": [1, "bool", "", 1, 1, "Main IO;Firmware"],
